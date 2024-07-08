@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align:center;
+    
+}
+.main-header {
+    background-color: #f0f0f0; 
+    padding: 20px;
+    text-align:center; 
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+    text-align: center;
+}
+.Logo {
+    
+    margin-right: 100px;
+    text-align:center;
+}
+.Logo img {
+    max-width: 100px; 
+    width: 200px; 
+    border-radius: 60%; 
+    margin-bottom: 20px;
+    text-align: center;
+   
+}
+.text {
+    text-align:center; 
+}
+.text h1 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+.text p {
+    font-size: 1rem;
+    color: #666; 
+}
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-image {
+    width: 200px; 
+    border-radius: 50%; 
+    margin-bottom: 20px;
+}
+
+.bio {
+    max-width: 600px; 
+    margin: 0 auto; 
+    line-height: 1.6; 
+}
+.skills {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 10px;
+}
+
+.skills h2 {
+    text-align: center;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.project {
+    max-width: 300px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.project h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+.resume {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.resume a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.resume a:hover {
+    background-color: #0056b3; 
+}
+.contact {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+}
+
+.contact p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.contact .email, .contact .phone {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.contact .email:hover, .contact .phone:hover {
+    background-color: #0056b3; 
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #007bff; 
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.HTML5{
+    max-width: 100px;
+    background-color: #f9f9f9;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.CSS3{
+    max-width: 100px;
+    background-color: #f9f9f9;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.Java{
+    max-width: 100px;
+    background-color: #f9f9f9;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.Web{
+    max-width: 100px;
+    background-color: #f9f9f9;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
